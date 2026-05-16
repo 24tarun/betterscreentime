@@ -31,8 +31,26 @@ playground.xcworkspace
 
 .build/
 .swiftpm/
+.derivedData/
 *.app/
 .DS_Store
+
+# Release / distribution artifacts
+*.dmg
+*.pkg
+*.zip
+*.xcarchive
+*.xcresult
+dist/
+release/
+/release
+artifacts/
+release-dmg.sh
+
+# Local signing / notarization config
+ExportOptions.plist
+.env.release
+.notarytool-credentials
 
 # CocoaPods
 #

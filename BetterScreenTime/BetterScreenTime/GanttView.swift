@@ -72,7 +72,6 @@ struct GanttView: View {
     @State private var isPointerInsideTimeline = false
     @State private var pointerXInTimeline: CGFloat = 0
     @State private var scrollWheelMonitor: Any?
-    @State private var lastMagnifyValue: CGFloat = 0
 
     private let labelWidth: CGFloat = 160
     private let xAxisHeight: CGFloat = 22
@@ -221,19 +220,6 @@ struct GanttView: View {
                         }
                         .frame(width: viewportW, height: rowAreaH + xAxisHeight, alignment: .topLeading)
                         .clipped()
-                        .simultaneousGesture(
-                            MagnifyGesture()
-                                .onChanged { value in
-                                    let delta = value.magnification - lastMagnifyValue
-                                    lastMagnifyValue = value.magnification
-                                    let scale = min(max(1.0 + delta, 0.85), 1.15)
-                                    let anchorX = isPointerInsideTimeline ? pointerXInTimeline : (viewportW * 0.5)
-                                    zoomBy(scale: scale, anchorX: anchorX, viewportW: viewportW)
-                                }
-                                .onEnded { _ in
-                                    lastMagnifyValue = 0
-                                }
-                        )
                         .onAppear {
                             guard !didSetInitialScroll else { return }
                             didSetInitialScroll = true
@@ -248,11 +234,6 @@ struct GanttView: View {
                                         let deltaHours = Double(dx / viewportW) * windowHours
                                         let next = clampWindowStart(currentWindowStartHour - deltaHours, hours: windowHours)
                                         currentWindowStartHour = next
-                                        return nil
-                                    }
-                                    if abs(dy) > abs(dx), abs(dy) > 0.01 {
-                                        let step = min(max(1.0 + (Double(dy) * 0.02), 0.85), 1.15)
-                                        zoomBy(scale: step, anchorX: pointerXInTimeline, viewportW: viewportW)
                                         return nil
                                     }
                                     return event

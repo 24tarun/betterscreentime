@@ -668,16 +668,73 @@ struct ContentView: View {
     }
 
     private func errorScreen(_ msg: String) -> some View {
-        VStack(spacing: 12) {
+        let isPermissionIssue = msg.localizedCaseInsensitiveContains("permission")
+            || msg.localizedCaseInsensitiveContains("Cannot copy DB")
+            || msg.localizedCaseInsensitiveContains("knowledgeC.db")
+
+        return VStack(spacing: 14) {
             Spacer()
             Image(systemName: "lock.fill")
                 .font(.system(size: 28))
                 .foregroundStyle(Color(hex: "#FF453A"))
-            Text(msg)
-                .font(.system(size: 11, weight: .medium))
+
+            if isPermissionIssue {
+                Text("To gain access to local Screen Time data, BetterScreenTime needs access to knowledgeC.db on your Mac. Please enable Full Disk Access for BetterScreenTime using the toggle below.")
+                    .font(.system(size: 12, weight: .medium))
+                    .foregroundStyle(.secondary)
+                    .multilineTextAlignment(.center)
+                    .padding(.horizontal, 32)
+
+                VStack(spacing: 0) {
+                    HStack(spacing: 12) {
+                        Image(nsImage: NSApp.applicationIconImage)
+                            .resizable()
+                            .interpolation(.high)
+                            .frame(width: 32, height: 32)
+                            .clipShape(RoundedRectangle(cornerRadius: 8, style: .continuous))
+
+                        Text("BetterScreenTime.app")
+                            .font(.system(size: 13, weight: .semibold))
+
+                        Spacer()
+
+                        ZStack(alignment: .trailing) {
+                            Capsule()
+                                .fill(Color.accentColor.opacity(0.9))
+                                .frame(width: 44, height: 26)
+                            Circle()
+                                .fill(.white)
+                                .frame(width: 22, height: 22)
+                                .padding(.trailing, 2)
+                        }
+                    }
+                    .padding(.horizontal, 14)
+                    .padding(.vertical, 12)
+                }
+                .frame(maxWidth: 560)
+                .background(
+                    RoundedRectangle(cornerRadius: 12, style: .continuous)
+                        .fill(Color.primary.opacity(0.06))
+                )
+                .overlay(
+                    RoundedRectangle(cornerRadius: 12, style: .continuous)
+                        .strokeBorder(Color.primary.opacity(0.09), lineWidth: 1)
+                )
+                .padding(.horizontal, 24)
+            } else {
+                Text(msg)
+                    .font(.system(size: 11, weight: .medium))
+                    .foregroundStyle(.secondary)
+                    .multilineTextAlignment(.center)
+                    .padding(.horizontal, 32)
+            }
+
+            Text("Then open Full Disk Access settings and add BetterScreenTime if it is not listed.")
+                .font(.system(size: 11, weight: .regular))
                 .foregroundStyle(.secondary)
                 .multilineTextAlignment(.center)
                 .padding(.horizontal, 32)
+
             Button("Open System Settings") {
                 NSWorkspace.shared.open(
                     URL(string: "x-apple.systempreferences:com.apple.preference.security?Privacy_AllFiles")!

@@ -90,8 +90,8 @@ actor KnowledgeDB {
             ))
         }
 
-        return ScreenTimeCore.filterQualifiedBundles(
-            ScreenTimeCore.mergeAdjacentEvents(raw)
+        return await ScreenTimeCore.filterQualifiedBundles(
+            await ScreenTimeCore.mergeAdjacentEvents(raw)
         )
     }
 
