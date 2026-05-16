@@ -1,6 +1,10 @@
 # BetterScreenTime
 
-BetterScreenTime is a native macOS app to track app usage and visualize your daily screen time with interactive timelines and charts.
+BetterScreenTime is a native macOS app to visualize your daily screen time with interactive timelines and charts.
+- It is free, will always be free
+- Collects no data
+- Does not connect to the internet
+- Need not run in the background
 
 ## Features
 - Daily app usage tracking
@@ -15,11 +19,7 @@ BetterScreenTime is a native macOS app to track app usage and visualize your dai
 4. Launch the app from **Applications**.
 
 ## Permissions
-On first launch, macOS may request permissions such as:
-- Screen Recording
-- Accessibility
-
-Granting these allows BetterScreenTime to collect and present usage data correctly.
+On first launch, macOS will ask permission for Full Disk Access this is needed to get data from the native screen time database, that is inside your library/
 
 ## Screenshots
 
