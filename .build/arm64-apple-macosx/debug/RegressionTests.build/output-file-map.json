@@ -1,0 +1,40 @@
+{
+  "": {
+    "swift-dependencies": "/Users/tarun/Desktop/coding/betterscreentime/.build/arm64-apple-macosx/debug/RegressionTests.build/primary.swiftdeps"
+  },
+  "/Users/tarun/Desktop/coding/betterscreentime/Tests/RegressionTests/AppEventAndBundleNamesTests.swift": {
+    "dependencies": "/Users/tarun/Desktop/coding/betterscreentime/.build/arm64-apple-macosx/debug/RegressionTests.build/AppEventAndBundleNamesTests.d",
+    "object": "/Users/tarun/Desktop/coding/betterscreentime/.build/arm64-apple-macosx/debug/RegressionTests.build/AppEventAndBundleNamesTests.swift.o",
+    "swiftmodule": "/Users/tarun/Desktop/coding/betterscreentime/.build/arm64-apple-macosx/debug/RegressionTests.build/AppEventAndBundleNamesTests~partial.swiftmodule",
+    "swift-dependencies": "/Users/tarun/Desktop/coding/betterscreentime/.build/arm64-apple-macosx/debug/RegressionTests.build/AppEventAndBundleNamesTests.swiftdeps",
+    "diagnostics": "/Users/tarun/Desktop/coding/betterscreentime/.build/arm64-apple-macosx/debug/RegressionTests.build/AppEventAndBundleNamesTests.dia"
+  },
+  "/Users/tarun/Desktop/coding/betterscreentime/Tests/RegressionTests/GanttViewInteractionRegressionTests.swift": {
+    "dependencies": "/Users/tarun/Desktop/coding/betterscreentime/.build/arm64-apple-macosx/debug/RegressionTests.build/GanttViewInteractionRegressionTests.d",
+    "object": "/Users/tarun/Desktop/coding/betterscreentime/.build/arm64-apple-macosx/debug/RegressionTests.build/GanttViewInteractionRegressionTests.swift.o",
+    "swiftmodule": "/Users/tarun/Desktop/coding/betterscreentime/.build/arm64-apple-macosx/debug/RegressionTests.build/GanttViewInteractionRegressionTests~partial.swiftmodule",
+    "swift-dependencies": "/Users/tarun/Desktop/coding/betterscreentime/.build/arm64-apple-macosx/debug/RegressionTests.build/GanttViewInteractionRegressionTests.swiftdeps",
+    "diagnostics": "/Users/tarun/Desktop/coding/betterscreentime/.build/arm64-apple-macosx/debug/RegressionTests.build/GanttViewInteractionRegressionTests.dia"
+  },
+  "/Users/tarun/Desktop/coding/betterscreentime/Tests/RegressionTests/RangeSafetyRegressionTests.swift": {
+    "dependencies": "/Users/tarun/Desktop/coding/betterscreentime/.build/arm64-apple-macosx/debug/RegressionTests.build/RangeSafetyRegressionTests.d",
+    "object": "/Users/tarun/Desktop/coding/betterscreentime/.build/arm64-apple-macosx/debug/RegressionTests.build/RangeSafetyRegressionTests.swift.o",
+    "swiftmodule": "/Users/tarun/Desktop/coding/betterscreentime/.build/arm64-apple-macosx/debug/RegressionTests.build/RangeSafetyRegressionTests~partial.swiftmodule",
+    "swift-dependencies": "/Users/tarun/Desktop/coding/betterscreentime/.build/arm64-apple-macosx/debug/RegressionTests.build/RangeSafetyRegressionTests.swiftdeps",
+    "diagnostics": "/Users/tarun/Desktop/coding/betterscreentime/.build/arm64-apple-macosx/debug/RegressionTests.build/RangeSafetyRegressionTests.dia"
+  },
+  "/Users/tarun/Desktop/coding/betterscreentime/Tests/RegressionTests/ScreenTimeCoreAggregationTests.swift": {
+    "dependencies": "/Users/tarun/Desktop/coding/betterscreentime/.build/arm64-apple-macosx/debug/RegressionTests.build/ScreenTimeCoreAggregationTests.d",
+    "object": "/Users/tarun/Desktop/coding/betterscreentime/.build/arm64-apple-macosx/debug/RegressionTests.build/ScreenTimeCoreAggregationTests.swift.o",
+    "swiftmodule": "/Users/tarun/Desktop/coding/betterscreentime/.build/arm64-apple-macosx/debug/RegressionTests.build/ScreenTimeCoreAggregationTests~partial.swiftmodule",
+    "swift-dependencies": "/Users/tarun/Desktop/coding/betterscreentime/.build/arm64-apple-macosx/debug/RegressionTests.build/ScreenTimeCoreAggregationTests.swiftdeps",
+    "diagnostics": "/Users/tarun/Desktop/coding/betterscreentime/.build/arm64-apple-macosx/debug/RegressionTests.build/ScreenTimeCoreAggregationTests.dia"
+  },
+  "/Users/tarun/Desktop/coding/betterscreentime/Tests/RegressionTests/ScreenTimeCoreNormalizationTests.swift": {
+    "dependencies": "/Users/tarun/Desktop/coding/betterscreentime/.build/arm64-apple-macosx/debug/RegressionTests.build/ScreenTimeCoreNormalizationTests.d",
+    "object": "/Users/tarun/Desktop/coding/betterscreentime/.build/arm64-apple-macosx/debug/RegressionTests.build/ScreenTimeCoreNormalizationTests.swift.o",
+    "swiftmodule": "/Users/tarun/Desktop/coding/betterscreentime/.build/arm64-apple-macosx/debug/RegressionTests.build/ScreenTimeCoreNormalizationTests~partial.swiftmodule",
+    "swift-dependencies": "/Users/tarun/Desktop/coding/betterscreentime/.build/arm64-apple-macosx/debug/RegressionTests.build/ScreenTimeCoreNormalizationTests.swiftdeps",
+    "diagnostics": "/Users/tarun/Desktop/coding/betterscreentime/.build/arm64-apple-macosx/debug/RegressionTests.build/ScreenTimeCoreNormalizationTests.dia"
+  }
+}

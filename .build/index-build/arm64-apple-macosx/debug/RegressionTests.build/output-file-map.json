@@ -1,0 +1,12 @@
+{
+  "": {
+    "swift-dependencies": "/Users/tarun/Desktop/coding/betterscreentime/.build/index-build/arm64-apple-macosx/debug/RegressionTests.build/primary.swiftdeps"
+  },
+  "/Users/tarun/Desktop/coding/betterscreentime/Tests/RegressionTests/GanttViewInteractionRegressionTests.swift": {
+    "dependencies": "/Users/tarun/Desktop/coding/betterscreentime/.build/index-build/arm64-apple-macosx/debug/RegressionTests.build/GanttViewInteractionRegressionTests.d",
+    "object": "/Users/tarun/Desktop/coding/betterscreentime/.build/index-build/arm64-apple-macosx/debug/RegressionTests.build/GanttViewInteractionRegressionTests.swift.o",
+    "swiftmodule": "/Users/tarun/Desktop/coding/betterscreentime/.build/index-build/arm64-apple-macosx/debug/RegressionTests.build/GanttViewInteractionRegressionTests~partial.swiftmodule",
+    "swift-dependencies": "/Users/tarun/Desktop/coding/betterscreentime/.build/index-build/arm64-apple-macosx/debug/RegressionTests.build/GanttViewInteractionRegressionTests.swiftdeps",
+    "diagnostics": "/Users/tarun/Desktop/coding/betterscreentime/.build/index-build/arm64-apple-macosx/debug/RegressionTests.build/GanttViewInteractionRegressionTests.dia"
+  }
+}

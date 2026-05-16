@@ -1,0 +1,413 @@
+{
+  "builtTestProducts" : [
+    {
+      "binaryPath" : "/Users/tarun/Desktop/coding/betterscreentime/.build/index-build/arm64-apple-macosx/debug/BetterScreenTimeRegressionTestsPackageTests.xctest/Contents/MacOS/BetterScreenTimeRegressionTestsPackageTests",
+      "packagePath" : "/Users/tarun/Desktop/coding/betterscreentime",
+      "productName" : "BetterScreenTimeRegressionTestsPackageTests"
+    }
+  ],
+  "copyCommands" : {
+
+  },
+  "explicitTargetDependencyImportCheckingMode" : {
+    "none" : {
+
+    }
+  },
+  "generatedSourceTargetSet" : [
+
+  ],
+  "pluginDescriptions" : [
+
+  ],
+  "swiftCommands" : {
+    "C.BetterScreenTimeRegressionTestsPackageTests-arm64-apple-macosx-debug.module" : {
+      "executable" : "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "fileList" : "/Users/tarun/Desktop/coding/betterscreentime/.build/index-build/arm64-apple-macosx/debug/BetterScreenTimeRegressionTestsPackageTests.build/sources",
+      "importPath" : "/Users/tarun/Desktop/coding/betterscreentime/.build/index-build/arm64-apple-macosx/debug/Modules",
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/tarun/Desktop/coding/betterscreentime/.build/index-build/arm64-apple-macosx/debug/BetterScreenTimeRegressionTestsPackageTests.derived/runner.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/tarun/Desktop/coding/betterscreentime/.build/index-build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/tarun/Desktop/coding/betterscreentime/.build/index-build/arm64-apple-macosx/debug/Modules/RegressionTests.swiftmodule"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/tarun/Desktop/coding/betterscreentime/.build/index-build/arm64-apple-macosx/debug/BetterScreenTimeRegressionTestsPackageTests.build/sources"
+        }
+      ],
+      "isLibrary" : true,
+      "moduleName" : "BetterScreenTimeRegressionTestsPackageTests",
+      "moduleOutputPath" : "/Users/tarun/Desktop/coding/betterscreentime/.build/index-build/arm64-apple-macosx/debug/Modules/BetterScreenTimeRegressionTestsPackageTests.swiftmodule",
+      "objects" : [
+        "/Users/tarun/Desktop/coding/betterscreentime/.build/index-build/arm64-apple-macosx/debug/BetterScreenTimeRegressionTestsPackageTests.build/runner.swift.o"
+      ],
+      "otherArguments" : [
+        "-target",
+        "arm64-apple-macosx13.0",
+        "-incremental",
+        "-enable-batch-mode",
+        "-serialize-diagnostics",
+        "-Onone",
+        "-enable-testing",
+        "-Xfrontend",
+        "-enable-cross-import-overlays",
+        "-j10",
+        "-DSWIFT_PACKAGE",
+        "-DDEBUG",
+        "-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE",
+        "-module-cache-path",
+        "/Users/tarun/Desktop/coding/betterscreentime/.build/index-build/arm64-apple-macosx/debug/ModuleCache",
+        "-parseable-output",
+        "-parse-as-library",
+        "-emit-objc-header",
+        "-emit-objc-header-path",
+        "/Users/tarun/Desktop/coding/betterscreentime/.build/index-build/arm64-apple-macosx/debug/BetterScreenTimeRegressionTestsPackageTests.build/include/BetterScreenTimeRegressionTestsPackageTests-Swift.h",
+        "-Xfrontend",
+        "-experimental-lazy-typecheck",
+        "-Xfrontend",
+        "-experimental-skip-all-function-bodies",
+        "-Xfrontend",
+        "-experimental-allow-module-with-compiler-errors",
+        "-Xfrontend",
+        "-empty-abi-descriptor",
+        "-plugin-path",
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins/testing",
+        "-sdk",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.4.sdk",
+        "-F",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-I",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-L",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-g",
+        "-Xcc",
+        "-isysroot",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.4.sdk",
+        "-Xcc",
+        "-F",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-Xcc",
+        "-fPIC",
+        "-Xcc",
+        "-g",
+        "-package-name",
+        "betterscreentime"
+      ],
+      "outputFileMapPath" : "/Users/tarun/Desktop/coding/betterscreentime/.build/index-build/arm64-apple-macosx/debug/BetterScreenTimeRegressionTestsPackageTests.build/output-file-map.json",
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/tarun/Desktop/coding/betterscreentime/.build/index-build/arm64-apple-macosx/debug/Modules/BetterScreenTimeRegressionTestsPackageTests.swiftmodule"
+        }
+      ],
+      "prepareForIndexing" : true,
+      "sources" : [
+        "/Users/tarun/Desktop/coding/betterscreentime/.build/index-build/arm64-apple-macosx/debug/BetterScreenTimeRegressionTestsPackageTests.derived/runner.swift"
+      ],
+      "tempsPath" : "/Users/tarun/Desktop/coding/betterscreentime/.build/index-build/arm64-apple-macosx/debug/BetterScreenTimeRegressionTestsPackageTests.build",
+      "wholeModuleOptimization" : false
+    },
+    "C.RegressionTests-arm64-apple-macosx-debug.module" : {
+      "executable" : "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "fileList" : "/Users/tarun/Desktop/coding/betterscreentime/.build/index-build/arm64-apple-macosx/debug/RegressionTests.build/sources",
+      "importPath" : "/Users/tarun/Desktop/coding/betterscreentime/.build/index-build/arm64-apple-macosx/debug/Modules",
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/tarun/Desktop/coding/betterscreentime/Tests/RegressionTests/GanttViewInteractionRegressionTests.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/tarun/Desktop/coding/betterscreentime/.build/index-build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/tarun/Desktop/coding/betterscreentime/.build/index-build/arm64-apple-macosx/debug/RegressionTests.build/sources"
+        }
+      ],
+      "isLibrary" : true,
+      "moduleName" : "RegressionTests",
+      "moduleOutputPath" : "/Users/tarun/Desktop/coding/betterscreentime/.build/index-build/arm64-apple-macosx/debug/Modules/RegressionTests.swiftmodule",
+      "objects" : [
+        "/Users/tarun/Desktop/coding/betterscreentime/.build/index-build/arm64-apple-macosx/debug/RegressionTests.build/GanttViewInteractionRegressionTests.swift.o"
+      ],
+      "otherArguments" : [
+        "-target",
+        "arm64-apple-macosx14.0",
+        "-incremental",
+        "-enable-batch-mode",
+        "-serialize-diagnostics",
+        "-Onone",
+        "-enable-testing",
+        "-Xfrontend",
+        "-enable-cross-import-overlays",
+        "-j10",
+        "-DSWIFT_PACKAGE",
+        "-DDEBUG",
+        "-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE",
+        "-module-cache-path",
+        "/Users/tarun/Desktop/coding/betterscreentime/.build/index-build/arm64-apple-macosx/debug/ModuleCache",
+        "-parseable-output",
+        "-parse-as-library",
+        "-swift-version",
+        "5",
+        "-Xfrontend",
+        "-experimental-lazy-typecheck",
+        "-Xfrontend",
+        "-experimental-skip-all-function-bodies",
+        "-Xfrontend",
+        "-experimental-allow-module-with-compiler-errors",
+        "-Xfrontend",
+        "-empty-abi-descriptor",
+        "-plugin-path",
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins/testing",
+        "-sdk",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.4.sdk",
+        "-F",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-I",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-L",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-g",
+        "-Xcc",
+        "-isysroot",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.4.sdk",
+        "-Xcc",
+        "-F",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-Xcc",
+        "-fPIC",
+        "-Xcc",
+        "-g",
+        "-package-name",
+        "betterscreentime"
+      ],
+      "outputFileMapPath" : "/Users/tarun/Desktop/coding/betterscreentime/.build/index-build/arm64-apple-macosx/debug/RegressionTests.build/output-file-map.json",
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/tarun/Desktop/coding/betterscreentime/.build/index-build/arm64-apple-macosx/debug/Modules/RegressionTests.swiftmodule"
+        }
+      ],
+      "prepareForIndexing" : true,
+      "sources" : [
+        "/Users/tarun/Desktop/coding/betterscreentime/Tests/RegressionTests/GanttViewInteractionRegressionTests.swift"
+      ],
+      "tempsPath" : "/Users/tarun/Desktop/coding/betterscreentime/.build/index-build/arm64-apple-macosx/debug/RegressionTests.build",
+      "wholeModuleOptimization" : false
+    }
+  },
+  "swiftFrontendCommands" : {
+
+  },
+  "swiftTargetScanArgs" : {
+    "BetterScreenTimeRegressionTestsPackageTests" : [
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "-module-name",
+      "BetterScreenTimeRegressionTestsPackageTests",
+      "-package-name",
+      "betterscreentime",
+      "-c",
+      "/Users/tarun/Desktop/coding/betterscreentime/.build/index-build/arm64-apple-macosx/debug/BetterScreenTimeRegressionTestsPackageTests.derived/runner.swift",
+      "-I",
+      "/Users/tarun/Desktop/coding/betterscreentime/.build/index-build/arm64-apple-macosx/debug/Modules",
+      "-target",
+      "arm64-apple-macosx13.0",
+      "-incremental",
+      "-enable-batch-mode",
+      "-serialize-diagnostics",
+      "-Onone",
+      "-enable-testing",
+      "-Xfrontend",
+      "-enable-cross-import-overlays",
+      "-j10",
+      "-DSWIFT_PACKAGE",
+      "-DDEBUG",
+      "-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE",
+      "-module-cache-path",
+      "/Users/tarun/Desktop/coding/betterscreentime/.build/index-build/arm64-apple-macosx/debug/ModuleCache",
+      "-parseable-output",
+      "-parse-as-library",
+      "-emit-objc-header",
+      "-emit-objc-header-path",
+      "/Users/tarun/Desktop/coding/betterscreentime/.build/index-build/arm64-apple-macosx/debug/BetterScreenTimeRegressionTestsPackageTests.build/include/BetterScreenTimeRegressionTestsPackageTests-Swift.h",
+      "-Xfrontend",
+      "-experimental-lazy-typecheck",
+      "-Xfrontend",
+      "-experimental-skip-all-function-bodies",
+      "-Xfrontend",
+      "-experimental-allow-module-with-compiler-errors",
+      "-Xfrontend",
+      "-empty-abi-descriptor",
+      "-plugin-path",
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins/testing",
+      "-sdk",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.4.sdk",
+      "-F",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-I",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-L",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-g",
+      "-Xcc",
+      "-isysroot",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.4.sdk",
+      "-Xcc",
+      "-F",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-Xcc",
+      "-fPIC",
+      "-Xcc",
+      "-g",
+      "-package-name",
+      "betterscreentime",
+      "-driver-use-frontend-path",
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc"
+    ],
+    "RegressionTests" : [
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "-module-name",
+      "RegressionTests",
+      "-package-name",
+      "betterscreentime",
+      "-c",
+      "/Users/tarun/Desktop/coding/betterscreentime/Tests/RegressionTests/GanttViewInteractionRegressionTests.swift",
+      "-I",
+      "/Users/tarun/Desktop/coding/betterscreentime/.build/index-build/arm64-apple-macosx/debug/Modules",
+      "-target",
+      "arm64-apple-macosx14.0",
+      "-incremental",
+      "-enable-batch-mode",
+      "-serialize-diagnostics",
+      "-Onone",
+      "-enable-testing",
+      "-Xfrontend",
+      "-enable-cross-import-overlays",
+      "-j10",
+      "-DSWIFT_PACKAGE",
+      "-DDEBUG",
+      "-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE",
+      "-module-cache-path",
+      "/Users/tarun/Desktop/coding/betterscreentime/.build/index-build/arm64-apple-macosx/debug/ModuleCache",
+      "-parseable-output",
+      "-parse-as-library",
+      "-swift-version",
+      "5",
+      "-Xfrontend",
+      "-experimental-lazy-typecheck",
+      "-Xfrontend",
+      "-experimental-skip-all-function-bodies",
+      "-Xfrontend",
+      "-experimental-allow-module-with-compiler-errors",
+      "-Xfrontend",
+      "-empty-abi-descriptor",
+      "-plugin-path",
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins/testing",
+      "-sdk",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.4.sdk",
+      "-F",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-I",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-L",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-g",
+      "-Xcc",
+      "-isysroot",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.4.sdk",
+      "-Xcc",
+      "-F",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-Xcc",
+      "-fPIC",
+      "-Xcc",
+      "-g",
+      "-package-name",
+      "betterscreentime",
+      "-driver-use-frontend-path",
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc"
+    ]
+  },
+  "targetDependencyMap" : {
+    "BetterScreenTimeRegressionTestsPackageTests" : [
+      "RegressionTests"
+    ],
+    "RegressionTests" : [
+
+    ]
+  },
+  "testDiscoveryCommands" : {
+
+  },
+  "testEntryPointCommands" : {
+
+  },
+  "traitConfiguration" : {
+    "default" : {
+
+    }
+  },
+  "writeCommands" : {
+    "/Users/tarun/Desktop/coding/betterscreentime/.build/index-build/arm64-apple-macosx/debug/BetterScreenTimeRegressionTestsPackageTests.build/sources" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<sources-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/tarun/Desktop/coding/betterscreentime/.build/index-build/arm64-apple-macosx/debug/BetterScreenTimeRegressionTestsPackageTests.derived/runner.swift"
+        }
+      ],
+      "outputFilePath" : "/Users/tarun/Desktop/coding/betterscreentime/.build/index-build/arm64-apple-macosx/debug/BetterScreenTimeRegressionTestsPackageTests.build/sources"
+    },
+    "/Users/tarun/Desktop/coding/betterscreentime/.build/index-build/arm64-apple-macosx/debug/RegressionTests.build/sources" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<sources-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/tarun/Desktop/coding/betterscreentime/Tests/RegressionTests/GanttViewInteractionRegressionTests.swift"
+        }
+      ],
+      "outputFilePath" : "/Users/tarun/Desktop/coding/betterscreentime/.build/index-build/arm64-apple-macosx/debug/RegressionTests.build/sources"
+    },
+    "/Users/tarun/Desktop/coding/betterscreentime/.build/index-build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt" : {
+      "alwaysOutOfDate" : true,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<swift-get-version>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc"
+        }
+      ],
+      "outputFilePath" : "/Users/tarun/Desktop/coding/betterscreentime/.build/index-build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt"
+    }
+  }
+}

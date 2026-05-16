@@ -1,0 +1,60 @@
+import Foundation
+
+enum BundleNames {
+    nonisolated private static let map: [String: String] = [
+        "com.apple.Safari": "Safari",
+        "com.google.Chrome": "Chrome",
+        "com.brave.Browser": "Brave",
+        "com.microsoft.VSCode": "VS Code",
+        "com.apple.Terminal": "Terminal",
+        "com.apple.finder": "Finder",
+        "com.apple.Notes": "Notes",
+        "com.apple.Mail": "Mail",
+        "com.tinyspeck.slackmacgap": "Slack",
+        "com.slack.Slack": "Slack",
+        "com.spotify.client": "Spotify",
+        "com.apple.Music": "Music",
+        "com.apple.systempreferences": "System Settings",
+        "com.apple.dt.Xcode": "Xcode",
+        "com.jetbrains.pycharm": "PyCharm",
+        "com.jetbrains.webstorm": "WebStorm",
+        "com.jetbrains.intellij": "IntelliJ IDEA",
+        "com.microsoft.Word": "Word",
+        "com.microsoft.Excel": "Excel",
+        "com.microsoft.Powerpoint": "PowerPoint",
+        "com.figma.Desktop": "Figma",
+        "com.notion.id": "Notion",
+        "com.discord": "Discord",
+        "com.github.GitHubClient": "GitHub Desktop",
+        "us.zoom.xos": "Zoom",
+        "com.apple.MobileSMS": "Messages",
+        "com.apple.FaceTime": "FaceTime",
+        "com.apple.iCal": "Calendar",
+        "com.apple.Preview": "Preview",
+        "net.whatsapp.WhatsApp": "WhatsApp",
+        "com.openai.chat": "ChatGPT",
+        "com.arc.app": "Arc",
+        "company.thebrowser.Browser": "Arc",
+        "com.mitchellh.ghostty": "Ghostty",
+        "com.googlecode.iterm2": "iTerm2",
+        "com.microsoft.teams2": "Teams",
+        "com.microsoft.teams": "Teams",
+        "com.anthropic.claudefordesktop": "Claude",
+        "com.anthropic.claude": "Claude",
+        "com.anthropic.Claude": "Claude",
+        "com.apple.dt.CommandLineTools": "Xcode CLI",
+        "com.apple.ScriptEditor2": "Script Editor",
+        "com.apple.screensaver.Basic": "Screen Saver",
+        "com.1password.1password": "1Password",
+        "com.agilebits.onepassword7": "1Password",
+        "org.mozilla.firefox": "Firefox",
+        "com.linear": "Linear",
+        "com.raycast.macos": "Raycast",
+        "com.sindresorhus.Lungo": "Lungo",
+    ]
+
+    nonisolated static func resolve(_ bundleId: String) -> String {
+        if let name = map[bundleId] { return name }
+        return bundleId.split(separator: ".").last.map { String($0).capitalized } ?? bundleId
+    }
+}
