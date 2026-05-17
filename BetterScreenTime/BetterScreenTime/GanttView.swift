@@ -126,6 +126,9 @@ struct GanttView: View {
         }
         return map
     }
+    private var timelineColorMap: [String: Color] {
+        AppColors.timelineColorMap(for: appOrder)
+    }
 
     private func xPos(_ date: Date, chartW: CGFloat) -> CGFloat {
         let raw = xFrac(date) * chartW
@@ -316,7 +319,8 @@ struct GanttView: View {
         let bh = barHeight(for: rh)
         let appEvents = visibleByApp[app] ?? []
         let opacity = highlightedApp == nil || highlightedApp == app ? 1.0 : 0.18
-        let color = AppColors.color(for: app).opacity(0.88)
+        let baseColor = timelineColorMap[app] ?? AppColors.color(for: app)
+        let color = baseColor.opacity(0.88)
         let cr = min(4, bh * 0.3)
 
         return ZStack(alignment: .leading) {

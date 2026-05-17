@@ -1,7 +1,7 @@
 import SwiftUI
 
 enum AppColors {
-    private static let palette: [Color] = [
+    static let palette: [Color] = [
         Color(hex: "#ff6b2b"), Color(hex: "#ff9500"), Color(hex: "#ffd60a"),
         Color(hex: "#30d158"), Color(hex: "#32ade6"), Color(hex: "#5856d6"),
         Color(hex: "#bf5af2"), Color(hex: "#ff375f"), Color(hex: "#00c7be"),
@@ -11,11 +11,18 @@ enum AppColors {
     ]
 
     static func color(for name: String) -> Color {
-        var hash = 0
-        for scalar in name.unicodeScalars {
-            hash = 31 &* hash &+ Int(scalar.value)
+        let hash = TimelineColorAllocator.stableHash(name)
+        return palette[hash % palette.count]
+    }
+
+    static func timelineColorMap(for orderedApps: [String]) -> [String: Color] {
+        let indices = TimelineColorAllocator.paletteIndices(for: orderedApps, paletteCount: palette.count)
+        var result: [String: Color] = [:]
+        result.reserveCapacity(indices.count)
+        for (app, index) in indices {
+            result[app] = palette[index]
         }
-        return palette[abs(hash) % palette.count]
+        return result
     }
 }
 
