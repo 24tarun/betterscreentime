@@ -345,6 +345,10 @@ struct ContentView: View {
                                     .interpolation(.high)
                                     .frame(width: 14, height: 14)
                                     .clipShape(RoundedRectangle(cornerRadius: 2))
+                            } else {
+                                RoundedRectangle(cornerRadius: 2)
+                                    .fill(Color.primary.opacity(0.15))
+                                    .frame(width: 14, height: 14)
                             }
 
                             Text(event.app)
@@ -412,9 +416,9 @@ struct ContentView: View {
                                     .frame(width: 16, height: 16)
                                     .clipShape(RoundedRectangle(cornerRadius: 3))
                             } else {
-                                Circle()
-                                    .fill(AppColors.color(for: item.app))
-                                    .frame(width: 7, height: 7)
+                                RoundedRectangle(cornerRadius: 3)
+                                    .fill(Color.primary.opacity(0.15))
+                                    .frame(width: 16, height: 16)
                             }
                             Text(item.app).font(.system(size: 12, weight: .medium))
                             Spacer()
@@ -447,6 +451,10 @@ struct ContentView: View {
                             .interpolation(.high)
                             .frame(width: 40, height: 40)
                             .clipShape(RoundedRectangle(cornerRadius: 8))
+                    } else {
+                        RoundedRectangle(cornerRadius: 8)
+                            .fill(Color.primary.opacity(0.15))
+                            .frame(width: 40, height: 40)
                     }
                     VStack(alignment: .leading, spacing: 2) {
                         Text(top.app)
@@ -482,6 +490,10 @@ struct ContentView: View {
                             .interpolation(.high)
                             .frame(width: 20, height: 20)
                             .clipShape(RoundedRectangle(cornerRadius: 4))
+                    } else {
+                        RoundedRectangle(cornerRadius: 4)
+                            .fill(Color.primary.opacity(0.15))
+                            .frame(width: 20, height: 20)
                     }
                     Text(item.app)
                         .font(.system(size: 12, weight: .medium))

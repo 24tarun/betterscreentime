@@ -289,9 +289,9 @@ struct GanttView: View {
                         .frame(width: 24, height: 24)
                         .clipShape(RoundedRectangle(cornerRadius: 3))
                 } else {
-                    Circle()
-                        .fill(Color.primary.opacity(0.75))
-                        .frame(width: 5, height: 5)
+                    RoundedRectangle(cornerRadius: 3)
+                        .fill(Color.primary.opacity(0.15))
+                        .frame(width: 24, height: 24)
                 }
                 Text(app)
                     .font(.system(size: fs, weight: .semibold))
